@@ -34,6 +34,7 @@ class DetectBall3d(Node):
         self.declare_parameter("aspect_ratio",4.0/3.0)
         self.declare_parameter("camera_frame",'camera_link_optical')
 
+
         self.h_fov = self.get_parameter('h_fov').get_parameter_value().double_value
         self.v_fov = self.h_fov/self.get_parameter('aspect_ratio').get_parameter_value().double_value
         self.ball_radius = self.get_parameter('ball_radius').get_parameter_value().double_value

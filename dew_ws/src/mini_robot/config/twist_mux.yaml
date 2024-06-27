@@ -17,4 +17,8 @@ twist_mux:
         topic   : bumper_vel
         timeout : 0.5
         priority: 30
+      bumper:
+        topic   : emergency_vel
+        timeout : 0.5
+        priority: 30  
     # output: cmd_vel_out  
