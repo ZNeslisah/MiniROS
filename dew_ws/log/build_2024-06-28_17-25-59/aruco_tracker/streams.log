@@ -1,0 +1,30 @@
+[2.018s] Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/prefix_override:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/build --no-deps symlink_data
+[2.611s] running develop
+[2.946s] running egg_info
+[2.946s] creating aruco_tracker.egg-info
+[2.946s] writing aruco_tracker.egg-info/PKG-INFO
+[2.947s] writing dependency_links to aruco_tracker.egg-info/dependency_links.txt
+[2.947s] writing entry points to aruco_tracker.egg-info/entry_points.txt
+[2.947s] writing requirements to aruco_tracker.egg-info/requires.txt
+[2.947s] writing top-level names to aruco_tracker.egg-info/top_level.txt
+[2.947s] writing manifest file 'aruco_tracker.egg-info/SOURCES.txt'
+[2.949s] reading manifest file 'aruco_tracker.egg-info/SOURCES.txt'
+[2.951s] writing manifest file 'aruco_tracker.egg-info/SOURCES.txt'
+[2.954s] running build_ext
+[2.955s] Creating /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages/aruco-tracker.egg-link (link to .)
+[2.956s] Installing detect_aruco script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/aruco_tracker
+[2.956s] Installing follow_aruco script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/aruco_tracker
+[2.956s] Installing get_image script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/aruco_tracker
+[2.956s] Installing image_listener script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/aruco_tracker
+[2.956s] 
+[2.956s] Installed /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker
+[2.956s] running symlink_data
+[2.956s] creating /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/ament_index
+[2.957s] creating /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/ament_index/resource_index
+[2.957s] creating /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/ament_index/resource_index/packages
+[2.957s] symbolically linking /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/resource/aruco_tracker -> /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/ament_index/resource_index/packages
+[2.957s] symbolically linking /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/package.xml -> /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker
+[2.957s] creating /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/launch
+[2.957s] symbolically linking /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/launch/aruco_tracker.launch.py -> /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/launch
+[2.957s] creating /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/config
+[3.194s] Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker' returned '0': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/prefix_override:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/build --no-deps symlink_data

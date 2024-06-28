@@ -1,0 +1,47 @@
+- Workspace a girdiginde ilk bi source'la
+source install/setup.bash
+
+- colcon build --symlink-install
+symlink yazdigin icin dosyada degisiklik yaptiginda buildlemene gerek yok, yeni dosya actiginda buildlemelisin 
+
+-Image format'i degistirmek istersen(compressed aliyo uncompressed yapiyo):
+ros2 run image_transport republish compressed raw --ros-args -r in/compressed:=/camera/image_raw/compressed -r out:=/camera/image_raw/uncompressed
+
+-To run docker image:
+docker start ros2_humble
+docker exec -it ros2_humble bash
+
+rm -rf build install log
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap /cmd_vel:=/cmd_vel_teleop
+
+
+
+
+Ball tracker:
+ros2 launch mini_robot launch_sim.launch.py world:=./src/mini_robot/worlds/obstacles.world
+rviz2 -d src/mini_robot/config/main.rviz
+ros2 launch mini_robot ball_tracker.launch.py sim_mode:=true            
+
+Bumper test:
+dew_ws
+ros2 launch mini_robot launch_sim.launch.py world:=./src/mini_robot/worlds/obstacles.world
+rviz2 -d src/mini_robot/config/main.rviz
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap /cmd_vel:=/cmd_vel_teleop
+
+robot_ws
+ros2 run mini_interface pipe_read
+ros2 run mini_interface bumper
+
+
+Emergency Button and neopixel test:
+ros2 launch mini_robot launch_sim.launch.py world:=./src/mini_robot/worlds/obstacles.world
+rviz2 -d src/mini_robot/config/main.rviz
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args --remap /cmd_vel:=/cmd_vel_teleop
+ros2 launch mini_control emergency_launch.py
+
+
+Ball tracker simulation:
+ros2 launch mini_robot ball_tracker.launch.py sim_mode:=true 
+
+

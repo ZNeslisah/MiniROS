@@ -1,1 +1,0 @@
-/home/mini/MiniROS/dew_ws/build/ball_tracker/launch/aruco_tracker.launch.py

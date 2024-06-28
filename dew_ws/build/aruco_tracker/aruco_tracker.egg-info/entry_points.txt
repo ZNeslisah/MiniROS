@@ -1,0 +1,6 @@
+[console_scripts]
+detect_aruco = aruco_tracker.detect_aruco:main
+follow_aruco = aruco_tracker.follow_aruco:main
+get_image = aruco_tracker.get_image:main
+image_listener = aruco_tracker.image_listener:main
+

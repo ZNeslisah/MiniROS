@@ -1,1 +1,1 @@
-/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_core/mini_robotConfig.cmake
+/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_core/mini_robotConfig.cmake
