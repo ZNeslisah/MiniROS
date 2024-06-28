@@ -1,0 +1,220 @@
+[0.000000] (-) TimerEvent: {}
+[0.002101] (ball_tracker) JobQueued: {'identifier': 'ball_tracker', 'dependencies': OrderedDict()}
+[0.002835] (mini_control) JobQueued: {'identifier': 'mini_control', 'dependencies': OrderedDict()}
+[0.003468] (mini_robot) JobQueued: {'identifier': 'mini_robot', 'dependencies': OrderedDict()}
+[0.003861] (ball_tracker) JobStarted: {'identifier': 'ball_tracker'}
+[0.073443] (mini_control) JobStarted: {'identifier': 'mini_control'}
+[0.099078] (-) TimerEvent: {}
+[0.115488] (mini_robot) JobStarted: {'identifier': 'mini_robot'}
+[0.199271] (-) TimerEvent: {}
+[0.300278] (-) TimerEvent: {}
+[0.401086] (-) TimerEvent: {}
+[0.501894] (-) TimerEvent: {}
+[0.602662] (-) TimerEvent: {}
+[0.703717] (-) TimerEvent: {}
+[0.804517] (-) TimerEvent: {}
+[0.905296] (-) TimerEvent: {}
+[1.006100] (-) TimerEvent: {}
+[1.106858] (-) TimerEvent: {}
+[1.207748] (-) TimerEvent: {}
+[1.308501] (-) TimerEvent: {}
+[1.409337] (-) TimerEvent: {}
+[1.510382] (-) TimerEvent: {}
+[1.611353] (-) TimerEvent: {}
+[1.712675] (-) TimerEvent: {}
+[1.813693] (-) TimerEvent: {}
+[1.914985] (-) TimerEvent: {}
+[2.015971] (-) TimerEvent: {}
+[2.116833] (-) TimerEvent: {}
+[2.217842] (-) TimerEvent: {}
+[2.318897] (-) TimerEvent: {}
+[2.419802] (-) TimerEvent: {}
+[2.520609] (-) TimerEvent: {}
+[2.621435] (-) TimerEvent: {}
+[2.722565] (-) TimerEvent: {}
+[2.823384] (-) TimerEvent: {}
+[2.924339] (-) TimerEvent: {}
+[3.025143] (-) TimerEvent: {}
+[3.125993] (-) TimerEvent: {}
+[3.226870] (-) TimerEvent: {}
+[3.327840] (-) TimerEvent: {}
+[3.393000] (mini_robot) JobProgress: {'identifier': 'mini_robot', 'progress': 'cmake'}
+[3.400040] (mini_robot) JobProgress: {'identifier': 'mini_robot', 'progress': 'build'}
+[3.403248] (mini_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mini/MiniROS/dew_ws/build/mini_robot', '--', '-j4', '-l4'], 'cwd': '/home/mini/MiniROS/dew_ws/build/mini_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mini'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mini'), ('OLDPWD', '/home/mini'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '1898'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mini/MiniROS/dew_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minirobot:@/tmp/.ICE-unix/1617,unix/minirobot:/tmp/.ICE-unix/1617'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a552a2f_3402_47da_aef6_4ed072bee32c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0TP1P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/mini/MiniROS/dew_ws/install/mini_robot:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mini/MiniROS/dew_ws/build/mini_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mini/MiniROS/dew_ws/build/mini_control:/home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:/home/mini/MiniROS/dew_ws/build/ball_tracker:/home/mini/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mini/MiniROS/dew_ws/install/mini_robot:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/opt/ros/humble')]), 'shell': False}
+[3.428034] (-) TimerEvent: {}
+[3.529794] (-) TimerEvent: {}
+[3.630992] (-) TimerEvent: {}
+[3.732006] (-) TimerEvent: {}
+[3.833350] (-) TimerEvent: {}
+[3.925588] (mini_robot) CommandEnded: {'returncode': 0}
+[3.934168] (-) TimerEvent: {}
+[4.035365] (-) TimerEvent: {}
+[4.080270] (mini_robot) JobProgress: {'identifier': 'mini_robot', 'progress': 'install'}
+[4.129364] (mini_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mini/MiniROS/dew_ws/build/mini_robot'], 'cwd': '/home/mini/MiniROS/dew_ws/build/mini_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mini'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mini'), ('OLDPWD', '/home/mini'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '1898'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mini/MiniROS/dew_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mini'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mini'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minirobot:@/tmp/.ICE-unix/1617,unix/minirobot:/tmp/.ICE-unix/1617'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a552a2f_3402_47da_aef6_4ed072bee32c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0TP1P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/mini/MiniROS/dew_ws/install/mini_robot:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mini/MiniROS/dew_ws/build/mini_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mini/MiniROS/dew_ws/build/mini_control:/home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:/home/mini/MiniROS/dew_ws/build/ball_tracker:/home/mini/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mini/MiniROS/dew_ws/install/mini_robot:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/opt/ros/humble')]), 'shell': False}
+[4.135599] (-) TimerEvent: {}
+[4.174626] (mini_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.179849] (mini_robot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.193773] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/ball_tracker_params_robot.yaml\n'}
+[4.195376] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/ball_tracker_params_sim.yaml\n'}
+[4.200508] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/drive_bot.rviz\n'}
+[4.202730] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/empty.yaml\n'}
+[4.203312] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[4.206321] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/gazebo_params.yaml\n'}
+[4.208954] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/joystick.yaml\n'}
+[4.211480] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/main.rviz\n'}
+[4.216178] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/map.rviz\n'}
+[4.220579] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/mapper_params_online_async.yaml\n'}
+[4.226374] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/my_controllers.yaml\n'}
+[4.233940] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/nav2_params.yaml\n'}
+[4.241107] (-) TimerEvent: {}
+[4.243310] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/twist_mux.yaml\n'}
+[4.249927] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/view_bot.rviz\n'}
+[4.256696] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/camera.xacro\n'}
+[4.257463] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/gazebo_control.xacro\n'}
+[4.258137] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/inertial_macros.xacro\n'}
+[4.258683] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/lidar.xacro\n'}
+[4.259331] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/robot.urdf.xacro\n'}
+[4.260094] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/robot_core.xacro\n'}
+[4.260624] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/ros2_control.xacro\n'}
+[4.261363] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/ball_tracker.launch.py\n'}
+[4.264688] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/camera.launch.py\n'}
+[4.265292] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/joystick.launch.py\n'}
+[4.266029] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/launch_robot.launch.py\n'}
+[4.266574] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/launch_sim.launch.py\n'}
+[4.267188] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/localization_launch.py\n'}
+[4.268680] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/navigation_launch.py\n'}
+[4.269486] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/online_async_launch.py\n'}
+[4.270019] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/rplidar.launch.py\n'}
+[4.270538] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/rsp.launch.py\n'}
+[4.272787] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/empty.world\n'}
+[4.273551] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/obstacles.world\n'}
+[4.274199] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/ament_index/resource_index/package_run_dependencies/mini_robot\n'}
+[4.274848] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/ament_index/resource_index/parent_prefix_path/mini_robot\n'}
+[4.282981] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/ament_prefix_path.sh\n'}
+[4.285167] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/ament_prefix_path.dsv\n'}
+[4.286105] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/path.sh\n'}
+[4.286776] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/path.dsv\n'}
+[4.289840] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.bash\n'}
+[4.290804] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.sh\n'}
+[4.291841] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.zsh\n'}
+[4.296755] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.dsv\n'}
+[4.297473] (mini_robot) StdoutLine: {'line': b'-- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.dsv\n'}
+[4.339816] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/ament_index/resource_index/packages/mini_robot\n'}
+[4.343985] (-) TimerEvent: {}
+[4.345826] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/cmake/mini_robotConfig.cmake\n'}
+[4.350016] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/cmake/mini_robotConfig-version.cmake\n'}
+[4.353482] (mini_robot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.xml\n'}
+[4.358364] (mini_robot) CommandEnded: {'returncode': 0}
+[4.444218] (-) TimerEvent: {}
+[4.551597] (-) TimerEvent: {}
+[4.654535] (-) TimerEvent: {}
+[4.757303] (mini_robot) JobEnded: {'identifier': 'mini_robot', 'rc': 0}
+[4.760429] (-) TimerEvent: {}
+[4.861459] (-) TimerEvent: {}
+[4.962283] (-) TimerEvent: {}
+[5.063121] (-) TimerEvent: {}
+[5.167591] (-) TimerEvent: {}
+[5.268435] (-) TimerEvent: {}
+[5.369461] (-) TimerEvent: {}
+[5.470373] (-) TimerEvent: {}
+[5.571250] (-) TimerEvent: {}
+[5.672463] (-) TimerEvent: {}
+[5.773950] (-) TimerEvent: {}
+[5.875972] (-) TimerEvent: {}
+[5.977205] (-) TimerEvent: {}
+[6.078483] (-) TimerEvent: {}
+[6.179600] (-) TimerEvent: {}
+[6.280425] (-) TimerEvent: {}
+[6.381671] (-) TimerEvent: {}
+[6.483980] (-) TimerEvent: {}
+[6.588176] (-) TimerEvent: {}
+[6.690415] (-) TimerEvent: {}
+[6.748005] (mini_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mini/MiniROS/dew_ws/build/mini_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/mini/MiniROS/dew_ws/build/mini_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mini', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mini', 'OLDPWD': '/home/mini', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'SYSTEMD_EXEC_PID': '1898', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mini/MiniROS/dew_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mini', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/minirobot:@/tmp/.ICE-unix/1617,unix/minirobot:/tmp/.ICE-unix/1617', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9a552a2f_3402_47da_aef6_4ed072bee32c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0TP1P2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/mini/MiniROS/dew_ws/install/mini_robot:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mini/MiniROS/dew_ws/build/mini_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mini/MiniROS/dew_ws/build/mini_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:/home/mini/MiniROS/dew_ws/build/mini_control:/home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:/home/mini/MiniROS/dew_ws/build/ball_tracker:/home/mini/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mini/MiniROS/dew_ws/install/mini_robot'}, 'shell': False}
+[6.769905] (ball_tracker) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mini/MiniROS/dew_ws/build/ball_tracker/build', '--no-deps', 'symlink_data'], 'cwd': '/home/mini/MiniROS/dew_ws/build/ball_tracker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mini', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mini', 'OLDPWD': '/home/mini', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'SYSTEMD_EXEC_PID': '1898', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mini/MiniROS/dew_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mini', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mini', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mini/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/minirobot:@/tmp/.ICE-unix/1617,unix/minirobot:/tmp/.ICE-unix/1617', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9a552a2f_3402_47da_aef6_4ed072bee32c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0TP1P2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/mini/MiniROS/dew_ws/install/mini_robot:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mini/MiniROS/dew_ws/build/ball_tracker', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mini/MiniROS/dew_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages:/home/mini/MiniROS/dew_ws/build/mini_control:/home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:/home/mini/MiniROS/dew_ws/build/ball_tracker:/home/mini/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mini/MiniROS/dew_ws/install/mini_robot'}, 'shell': False}
+[6.790563] (-) TimerEvent: {}
+[6.891653] (-) TimerEvent: {}
+[6.993155] (-) TimerEvent: {}
+[7.094574] (-) TimerEvent: {}
+[7.196000] (-) TimerEvent: {}
+[7.296915] (-) TimerEvent: {}
+[7.398163] (-) TimerEvent: {}
+[7.498991] (-) TimerEvent: {}
+[7.599848] (-) TimerEvent: {}
+[7.700689] (-) TimerEvent: {}
+[7.801659] (-) TimerEvent: {}
+[7.902484] (-) TimerEvent: {}
+[8.003333] (-) TimerEvent: {}
+[8.105280] (-) TimerEvent: {}
+[8.206158] (-) TimerEvent: {}
+[8.307077] (-) TimerEvent: {}
+[8.364231] (ball_tracker) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[8.365201] (ball_tracker) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.407385] (-) TimerEvent: {}
+[8.508858] (-) TimerEvent: {}
+[8.527136] (mini_control) StdoutLine: {'line': b'running develop\n'}
+[8.534061] (mini_control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.535184] (mini_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.554264] (ball_tracker) StdoutLine: {'line': b'running develop\n'}
+[8.559155] (ball_tracker) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[8.560130] (ball_tracker) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.608985] (-) TimerEvent: {}
+[8.709848] (-) TimerEvent: {}
+[8.810704] (-) TimerEvent: {}
+[8.911577] (-) TimerEvent: {}
+[9.012570] (-) TimerEvent: {}
+[9.113428] (-) TimerEvent: {}
+[9.214311] (-) TimerEvent: {}
+[9.315234] (-) TimerEvent: {}
+[9.416301] (-) TimerEvent: {}
+[9.517191] (-) TimerEvent: {}
+[9.618012] (-) TimerEvent: {}
+[9.718890] (-) TimerEvent: {}
+[9.802072] (mini_control) StdoutLine: {'line': b'running egg_info\n'}
+[9.802835] (mini_control) StdoutLine: {'line': b'writing mini_control.egg-info/PKG-INFO\n'}
+[9.805375] (ball_tracker) StdoutLine: {'line': b'running egg_info\n'}
+[9.808094] (ball_tracker) StdoutLine: {'line': b'writing ball_tracker.egg-info/PKG-INFO\n'}
+[9.808974] (ball_tracker) StdoutLine: {'line': b'writing dependency_links to ball_tracker.egg-info/dependency_links.txt\n'}
+[9.809695] (mini_control) StdoutLine: {'line': b'writing dependency_links to mini_control.egg-info/dependency_links.txt\n'}
+[9.810493] (ball_tracker) StdoutLine: {'line': b'writing entry points to ball_tracker.egg-info/entry_points.txt\n'}
+[9.811021] (mini_control) StdoutLine: {'line': b'writing entry points to mini_control.egg-info/entry_points.txt\n'}
+[9.811717] (ball_tracker) StdoutLine: {'line': b'writing requirements to ball_tracker.egg-info/requires.txt\n'}
+[9.812346] (mini_control) StdoutLine: {'line': b'writing requirements to mini_control.egg-info/requires.txt\n'}
+[9.812940] (mini_control) StdoutLine: {'line': b'writing top-level names to mini_control.egg-info/top_level.txt\n'}
+[9.813777] (ball_tracker) StdoutLine: {'line': b'writing top-level names to ball_tracker.egg-info/top_level.txt\n'}
+[9.818019] (ball_tracker) StdoutLine: {'line': b"reading manifest file 'ball_tracker.egg-info/SOURCES.txt'\n"}
+[9.818934] (-) TimerEvent: {}
+[9.819492] (mini_control) StdoutLine: {'line': b"reading manifest file 'mini_control.egg-info/SOURCES.txt'\n"}
+[9.824223] (mini_control) StdoutLine: {'line': b"writing manifest file 'mini_control.egg-info/SOURCES.txt'\n"}
+[9.825107] (ball_tracker) StdoutLine: {'line': b"writing manifest file 'ball_tracker.egg-info/SOURCES.txt'\n"}
+[9.832194] (mini_control) StdoutLine: {'line': b'running build_ext\n'}
+[9.833396] (ball_tracker) StdoutLine: {'line': b'running build_ext\n'}
+[9.834034] (ball_tracker) StdoutLine: {'line': b'Creating /home/mini/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages/ball-tracker.egg-link (link to .)\n'}
+[9.834756] (mini_control) StdoutLine: {'line': b'Creating /home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages/mini-control.egg-link (link to .)\n'}
+[9.838656] (ball_tracker) StdoutLine: {'line': b'Installing detect_aruco script to /home/mini/MiniROS/dew_ws/install/ball_tracker/lib/ball_tracker\n'}
+[9.840042] (mini_control) StdoutLine: {'line': b'Installing bumper script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control\n'}
+[9.841221] (ball_tracker) StdoutLine: {'line': b'Installing detect_ball script to /home/mini/MiniROS/dew_ws/install/ball_tracker/lib/ball_tracker\n'}
+[9.841988] (mini_control) StdoutLine: {'line': b'Installing camera_test script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control\n'}
+[9.843003] (ball_tracker) StdoutLine: {'line': b'Installing follow_aruco script to /home/mini/MiniROS/dew_ws/install/ball_tracker/lib/ball_tracker\n'}
+[9.844284] (mini_control) StdoutLine: {'line': b'Installing emergency_button script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control\n'}
+[9.845314] (mini_control) StdoutLine: {'line': b'Installing improved_teleop_key script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control\n'}
+[9.847057] (ball_tracker) StdoutLine: {'line': b'Installing follow_ball script to /home/mini/MiniROS/dew_ws/install/ball_tracker/lib/ball_tracker\n'}
+[9.847816] (mini_control) StdoutLine: {'line': b'Installing neopixel script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control\n'}
+[9.849235] (ball_tracker) StdoutLine: {'line': b'Installing get_image script to /home/mini/MiniROS/dew_ws/install/ball_tracker/lib/ball_tracker\n'}
+[9.850849] (ball_tracker) StdoutLine: {'line': b'Installing image_listener script to /home/mini/MiniROS/dew_ws/install/ball_tracker/lib/ball_tracker\n'}
+[9.852180] (mini_control) StdoutLine: {'line': b'Installing pipe_read script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control\n'}
+[9.868523] (mini_control) StdoutLine: {'line': b'Installing pipe_write script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control\n'}
+[9.873171] (ball_tracker) StdoutLine: {'line': b'\n'}
+[9.875696] (ball_tracker) StdoutLine: {'line': b'Installed /home/mini/MiniROS/dew_ws/build/ball_tracker\n'}
+[9.877982] (mini_control) StdoutLine: {'line': b'Installing velocity_node script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control\n'}
+[9.880391] (ball_tracker) StdoutLine: {'line': b'running symlink_data\n'}
+[9.882608] (mini_control) StdoutLine: {'line': b'\n'}
+[9.886264] (mini_control) StdoutLine: {'line': b'Installed /home/mini/MiniROS/dew_ws/build/mini_control\n'}
+[9.889281] (mini_control) StdoutLine: {'line': b'running symlink_data\n'}
+[9.919333] (-) TimerEvent: {}
+[10.023154] (-) TimerEvent: {}
+[10.096684] (mini_control) CommandEnded: {'returncode': 0}
+[10.123848] (-) TimerEvent: {}
+[10.145644] (mini_control) JobEnded: {'identifier': 'mini_control', 'rc': 0}
+[10.151907] (ball_tracker) CommandEnded: {'returncode': 0}
+[10.204453] (ball_tracker) JobEnded: {'identifier': 'ball_tracker', 'rc': 0}
+[10.208087] (-) EventReactorShutdown: {}

@@ -23,9 +23,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'detect_ball = ball_tracker.detect_ball:main',
-            'detect_ball_3d = ball_tracker.detect_ball_3d:main',
-            'follow_ball = ball_tracker.follow_ball:main',
 	        'get_image = ball_tracker.get_image:main',
             'image_listener = ball_tracker.image_listener:main',
             'detect_aruco = ball_tracker.detect_aruco:main',

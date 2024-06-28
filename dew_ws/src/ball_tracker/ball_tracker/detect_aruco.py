@@ -73,7 +73,7 @@ class ArucoDetector(Node):
         cv2.imshow('Aruco Markers', cv_image)
 
         # Display the grayscale image with corners
-        cv2.imshow('Grayscale Image with Corners', gray)
+        # cv2.imshow('Grayscale Image with Corners', gray)
         cv2.waitKey(1)
 
 def main(args=None):
