@@ -1,0 +1,1 @@
+/home/mini/MiniROS/dew_ws/src/mini_control/setup.py

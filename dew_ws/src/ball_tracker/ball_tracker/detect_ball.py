@@ -18,6 +18,7 @@ from sensor_msgs.msg        import Image
 from geometry_msgs.msg      import Point
 from cv_bridge              import CvBridge, CvBridgeError
 import ball_tracker.process_image as proc
+import cv2
 
 class DetectBall(Node):
 
@@ -25,7 +26,7 @@ class DetectBall(Node):
         super().__init__('detect_ball')
 
         self.get_logger().info('Looking for the ball...')
-        self.image_sub = self.create_subscription(Image,"/image_in",self.callback,rclpy.qos.QoSPresetProfiles.SENSOR_DATA.value)
+        self.image_sub = self.create_subscription(Image,"/image1",self.callback,rclpy.qos.QoSPresetProfiles.SENSOR_DATA.value)
         self.image_out_pub = self.create_publisher(Image, "/image_out", 1)
         self.image_tuning_pub = self.create_publisher(Image, "/image_tuning", 1)
         self.ball_pub  = self.create_publisher(Point,"/detected_ball",1)
@@ -64,6 +65,7 @@ class DetectBall(Node):
         self.bridge = CvBridge()
 
         if(self.tuning_mode):
+            self.get_logger().info("tunning window is open")
             proc.create_tuning_window(self.tuning_params)
 
     def callback(self,data):
@@ -71,6 +73,8 @@ class DetectBall(Node):
             cv_image = self.bridge.imgmsg_to_cv2(data, "bgr8")
         except CvBridgeError as e:
             print(e)
+
+        cv2.imshow('Image', cv_image)
 
         try:
             if (self.tuning_mode):

@@ -1,0 +1,6 @@
+Invoking command in '/home/mini/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mini/MiniROS/dew_ws/src/mini_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mini/MiniROS/dew_ws/install/mini_robot
+Invoked command in '/home/mini/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mini/MiniROS/dew_ws/src/mini_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mini/MiniROS/dew_ws/install/mini_robot
+Invoking command in '/home/mini/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mini/MiniROS/dew_ws/build/mini_robot -- -j4 -l4
+Invoked command in '/home/mini/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mini/MiniROS/dew_ws/build/mini_robot -- -j4 -l4
+Invoking command in '/home/mini/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mini/MiniROS/dew_ws/build/mini_robot
+Invoked command in '/home/mini/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mini/MiniROS/dew_ws/build/mini_robot

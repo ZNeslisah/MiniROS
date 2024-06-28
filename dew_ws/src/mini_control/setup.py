@@ -30,7 +30,8 @@ setup(
             'improved_teleop_key = mini_control.improved_teleop_key:main',
             'neopixel = mini_control.neopixel:main',
             'pipe_write = mini_control.pipe_write:main',
-            'emergency_button = mini_control.emergency_button:main'
+            'emergency_button = mini_control.emergency_button:main',
+	    'camera_test = mini_control.camera_test:main'
         ],
     },
 )

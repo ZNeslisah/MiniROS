@@ -94,7 +94,7 @@ def generate_launch_description():
         follow_only_dec,
         tune_detection_dec,
         use_sim_time_dec,
-        image_topic_dec,
+        # image_topic_dec,
         cmd_vel_topic_dec,
         enable_3d_tracker_dec,
         detect_node,

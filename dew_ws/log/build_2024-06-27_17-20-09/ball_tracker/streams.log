@@ -1,0 +1,23 @@
+[5.453s] Invoking command in '/home/mini/MiniROS/dew_ws/build/ball_tracker': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/ball_tracker/build --no-deps symlink_data
+[6.925s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.926s]   warnings.warn(
+[7.081s] running develop
+[7.083s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[7.083s]   warnings.warn(
+[8.246s] running egg_info
+[8.247s] writing ball_tracker.egg-info/PKG-INFO
+[8.249s] writing dependency_links to ball_tracker.egg-info/dependency_links.txt
+[8.250s] writing entry points to ball_tracker.egg-info/entry_points.txt
+[8.251s] writing requirements to ball_tracker.egg-info/requires.txt
+[8.252s] writing top-level names to ball_tracker.egg-info/top_level.txt
+[8.261s] reading manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[8.266s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[8.273s] running build_ext
+[8.275s] Creating /home/mini/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages/ball-tracker.egg-link (link to .)
+[8.280s] Installing detect_ball script to /home/mini/MiniROS/dew_ws/install/ball_tracker/lib/ball_tracker
+[8.281s] Installing detect_ball_3d script to /home/mini/MiniROS/dew_ws/install/ball_tracker/lib/ball_tracker
+[8.282s] Installing follow_ball script to /home/mini/MiniROS/dew_ws/install/ball_tracker/lib/ball_tracker
+[8.284s] 
+[8.284s] Installed /home/mini/MiniROS/dew_ws/build/ball_tracker
+[8.285s] running symlink_data
+[8.514s] Invoked command in '/home/mini/MiniROS/dew_ws/build/ball_tracker' returned '0': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/ball_tracker/build --no-deps symlink_data

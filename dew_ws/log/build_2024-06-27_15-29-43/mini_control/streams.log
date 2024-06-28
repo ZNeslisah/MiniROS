@@ -1,0 +1,34 @@
+[7.943s] Invoking command in '/home/mini/MiniROS/dew_ws/build/mini_control': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/mini_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/mini_control/build --no-deps symlink_data
+[10.558s] running develop
+[10.573s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[10.573s]   warnings.warn(
+[12.436s] running egg_info
+[12.437s] creating mini_control.egg-info
+[12.437s] writing mini_control.egg-info/PKG-INFO
+[12.438s] writing dependency_links to mini_control.egg-info/dependency_links.txt
+[12.438s] writing entry points to mini_control.egg-info/entry_points.txt
+[12.448s] writing requirements to mini_control.egg-info/requires.txt
+[12.449s] writing top-level names to mini_control.egg-info/top_level.txt
+[12.450s] writing manifest file 'mini_control.egg-info/SOURCES.txt'
+[12.457s] reading manifest file 'mini_control.egg-info/SOURCES.txt'
+[12.458s] writing manifest file 'mini_control.egg-info/SOURCES.txt'
+[12.468s] running build_ext
+[12.470s] Creating /home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages/mini-control.egg-link (link to .)
+[12.476s] Installing bumper script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[12.477s] Installing emergency_button script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[12.478s] Installing improved_teleop_key script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[12.480s] Installing neopixel script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[12.481s] Installing pipe_read script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[12.483s] Installing pipe_write script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[12.484s] Installing velocity_node script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[12.488s] 
+[12.491s] Installed /home/mini/MiniROS/dew_ws/build/mini_control
+[12.492s] running symlink_data
+[12.494s] creating /home/mini/MiniROS/dew_ws/install/mini_control/share/ament_index
+[12.495s] creating /home/mini/MiniROS/dew_ws/install/mini_control/share/ament_index/resource_index
+[12.495s] creating /home/mini/MiniROS/dew_ws/install/mini_control/share/ament_index/resource_index/packages
+[12.496s] symbolically linking /home/mini/MiniROS/dew_ws/build/mini_control/resource/mini_control -> /home/mini/MiniROS/dew_ws/install/mini_control/share/ament_index/resource_index/packages
+[12.499s] symbolically linking /home/mini/MiniROS/dew_ws/build/mini_control/package.xml -> /home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control
+[12.504s] creating /home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/launch
+[12.506s] symbolically linking /home/mini/MiniROS/dew_ws/build/mini_control/launch/emergency_launch.py -> /home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/launch
+[12.841s] Invoked command in '/home/mini/MiniROS/dew_ws/build/mini_control' returned '0': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/mini_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/mini_control/build --no-deps symlink_data
