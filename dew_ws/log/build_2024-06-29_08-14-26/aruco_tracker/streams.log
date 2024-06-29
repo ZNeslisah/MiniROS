@@ -1,0 +1,32 @@
+[8.404s] Invoking command in '/home/mini/MiniROS/dew_ws/build/aruco_tracker': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/aruco_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/aruco_tracker/build --no-deps symlink_data
+[10.735s] running develop
+[10.738s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[10.739s]   warnings.warn(
+[12.322s] running egg_info
+[12.323s] creating aruco_tracker.egg-info
+[12.336s] writing aruco_tracker.egg-info/PKG-INFO
+[12.337s] writing dependency_links to aruco_tracker.egg-info/dependency_links.txt
+[12.338s] writing entry points to aruco_tracker.egg-info/entry_points.txt
+[12.340s] writing requirements to aruco_tracker.egg-info/requires.txt
+[12.341s] writing top-level names to aruco_tracker.egg-info/top_level.txt
+[12.343s] writing manifest file 'aruco_tracker.egg-info/SOURCES.txt'
+[12.360s] reading manifest file 'aruco_tracker.egg-info/SOURCES.txt'
+[12.367s] writing manifest file 'aruco_tracker.egg-info/SOURCES.txt'
+[12.380s] running build_ext
+[12.385s] Creating /home/mini/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages/aruco-tracker.egg-link (link to .)
+[12.402s] Installing detect_aruco script to /home/mini/MiniROS/dew_ws/install/aruco_tracker/lib/aruco_tracker
+[12.406s] Installing follow_aruco script to /home/mini/MiniROS/dew_ws/install/aruco_tracker/lib/aruco_tracker
+[12.412s] Installing get_image script to /home/mini/MiniROS/dew_ws/install/aruco_tracker/lib/aruco_tracker
+[12.417s] Installing image_listener script to /home/mini/MiniROS/dew_ws/install/aruco_tracker/lib/aruco_tracker
+[12.427s] 
+[12.428s] Installed /home/mini/MiniROS/dew_ws/build/aruco_tracker
+[12.443s] running symlink_data
+[12.456s] creating /home/mini/MiniROS/dew_ws/install/aruco_tracker/share/ament_index
+[12.457s] creating /home/mini/MiniROS/dew_ws/install/aruco_tracker/share/ament_index/resource_index
+[12.466s] creating /home/mini/MiniROS/dew_ws/install/aruco_tracker/share/ament_index/resource_index/packages
+[12.469s] symbolically linking /home/mini/MiniROS/dew_ws/build/aruco_tracker/resource/aruco_tracker -> /home/mini/MiniROS/dew_ws/install/aruco_tracker/share/ament_index/resource_index/packages
+[12.471s] symbolically linking /home/mini/MiniROS/dew_ws/build/aruco_tracker/package.xml -> /home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker
+[12.473s] creating /home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/launch
+[12.478s] symbolically linking /home/mini/MiniROS/dew_ws/build/aruco_tracker/launch/aruco_tracker.launch.py -> /home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/launch
+[12.490s] creating /home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/config
+[12.862s] Invoked command in '/home/mini/MiniROS/dew_ws/build/aruco_tracker' returned '0': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/aruco_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/aruco_tracker/build --no-deps symlink_data

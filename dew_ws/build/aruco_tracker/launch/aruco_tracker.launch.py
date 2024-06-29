@@ -1,1 +1,1 @@
-/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/aruco_tracker/launch/aruco_tracker.launch.py
+/home/mini/MiniROS/dew_ws/src/aruco_tracker/launch/aruco_tracker.launch.py

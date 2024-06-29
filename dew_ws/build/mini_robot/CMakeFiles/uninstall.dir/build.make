@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot
+CMAKE_SOURCE_DIR = /home/mini/MiniROS/dew_ws/src/mini_robot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot
+CMAKE_BINARY_DIR = /home/mini/MiniROS/dew_ws/build/mini_robot
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mini/MiniROS/dew_ws/build/mini_robot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mini/MiniROS/dew_ws/src/mini_robot /home/mini/MiniROS/dew_ws/src/mini_robot /home/mini/MiniROS/dew_ws/build/mini_robot /home/mini/MiniROS/dew_ws/build/mini_robot /home/mini/MiniROS/dew_ws/build/mini_robot/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

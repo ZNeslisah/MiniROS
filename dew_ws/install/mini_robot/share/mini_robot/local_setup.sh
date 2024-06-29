@@ -1,1 +1,1 @@
-/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.sh
+/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.sh

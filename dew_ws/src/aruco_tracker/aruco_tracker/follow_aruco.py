@@ -37,7 +37,7 @@ class FollowAruco(Node):
             self.get_logger().info(f'center: {cX}')
 
             # Calculate angular velocity based on marker center position
-            angular_velocity = -0.0005 * (cX - w / 2)
+            angular_velocity = -0.0003 * (cX - w / 2)
 
             # Calculate linear velocity based on marker size
             reference_size = 700  # Size of the marker at the desired distance
@@ -45,7 +45,7 @@ class FollowAruco(Node):
             min_linear_velocity = 0.05  # Minimum linear velocity
 
             if size < reference_size:
-                linear_velocity = 0.001 * (reference_size - size)
+                linear_velocity = 0.0008* (reference_size - size)
             else:
                 linear_velocity = 0.0
                 angular_velocity = 0.0
@@ -70,7 +70,7 @@ class FollowAruco(Node):
     def check_no_marker(self):
         if not self.marker_detected:
             # If no marker is detected, publish zero linear velocity and a turning angular velocity
-            self.publish_velocity(0.0, 0.2)
+            self.publish_velocity(0.0, 0.15)
         else:
             self.marker_detected = False  # Reset the flag for the next check
 
