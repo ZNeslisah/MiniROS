@@ -9,10 +9,10 @@ class NeoPixelNode(Node):
         self.get_logger().info("Neopixel Node has started")
 
         self.colors = {
-            'Blue': '0,0,255,1.0',
-            'Red': '255,0,0,1.0',
-            'Green': '0,255,0,1.0',
-            'Off': '0,0,0,0.0'
+            'Blue': '0,0,255',
+            'Red': '255,0,0',
+            'Green': '0,255,0',
+            'Off': '0,0,0'
         }
 
         self.bumper_subscription = self.create_subscription(

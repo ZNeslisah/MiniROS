@@ -6,10 +6,7 @@
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/gazebo_params.yaml
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/joystick.yaml
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/main.rviz
-/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/map.rviz
-/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/mapper_params_online_async.yaml
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/my_controllers.yaml
-/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/nav2_params.yaml
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/twist_mux.yaml
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/view_bot.rviz
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/camera.xacro
@@ -24,11 +21,9 @@
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/joystick.launch.py
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/launch_robot.launch.py
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/launch_sim.launch.py
-/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/localization_launch.py
-/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/navigation_launch.py
-/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/online_async_launch.py
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/rplidar.launch.py
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/rsp.launch.py
+/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/aruco.world
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/empty.world
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/obstacles.world
 /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/ament_index/resource_index/package_run_dependencies/mini_robot

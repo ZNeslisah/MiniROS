@@ -6,6 +6,8 @@ class BatteryNode(Node):
 
     def __init__(self):
         super().__init__('battery_node')
+        self.get_logger().info("Battery has started")
+
         self.subscription = self.create_subscription(
             String,
             'battery_level',
@@ -15,7 +17,7 @@ class BatteryNode(Node):
         self.subscription  # prevent unused variable warning
 
     def battery_callback(self, msg):
-        battery_level = int(msg.data)
+        battery_level = float(msg.data)
         led_brightness = self.calculate_led_brightness(battery_level)
         self.publish_led_brightness(led_brightness)
 

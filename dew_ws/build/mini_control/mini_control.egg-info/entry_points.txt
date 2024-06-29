@@ -1,4 +1,5 @@
 [console_scripts]
+battery = mini_control.battery:main
 bumper = mini_control.bumper:main
 camera_test = mini_control.camera_test:main
 emergency_button = mini_control.emergency_button:main

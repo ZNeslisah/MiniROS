@@ -40,7 +40,7 @@ class MulticastListenerNode(Node):
                 message = data.decode().strip()
                 message_parts = message.split('|')
                 if message_parts[0] == 'isButtonPressed':
-                    bool_value = message_parts[1].lower() == '1'
+                    bool_value = message_parts[1] == 'True'
                     self.publish_to_topic(self.publisher_button, bool_value)
                 elif message_parts[0] == 'battery':
                     battery_level = message_parts[1]

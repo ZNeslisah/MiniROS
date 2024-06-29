@@ -31,7 +31,8 @@ setup(
             'neopixel = mini_control.neopixel:main',
             'pipe_write = mini_control.pipe_write:main',
             'emergency_button = mini_control.emergency_button:main',
-	    'camera_test = mini_control.camera_test:main'
+	        'camera_test = mini_control.camera_test:main',
+            'battery = mini_control.battery:main'
         ],
     },
 )

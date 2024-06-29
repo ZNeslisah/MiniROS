@@ -27,7 +27,6 @@ setup(
             'image_listener = aruco_tracker.image_listener:main',
             'detect_aruco = aruco_tracker.detect_aruco:main',
             'follow_aruco = aruco_tracker.follow_aruco:main'
-
         ],
     },
 )

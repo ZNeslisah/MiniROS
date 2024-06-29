@@ -1,8 +1,10 @@
 package.xml
 setup.cfg
 setup.py
+launch/battery.launch.py
 launch/emergency_launch.py
 mini_control/__init__.py
+mini_control/battery.py
 mini_control/bumper.py
 mini_control/emergency_button.py
 mini_control/improved_teleop_key.py
