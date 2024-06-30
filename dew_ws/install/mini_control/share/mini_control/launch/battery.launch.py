@@ -1,1 +1,0 @@
-/home/mini/MiniROS/dew_ws/build/mini_control/launch/battery.launch.py

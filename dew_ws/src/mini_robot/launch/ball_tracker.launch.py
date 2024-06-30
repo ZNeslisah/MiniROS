@@ -26,9 +26,6 @@ def generate_launch_description():
                     get_package_share_directory('ball_tracker'), 'launch', 'ball_tracker.launch.py')]),
                     launch_arguments={'params_file': params_path,
                                     'image_topic': '/camera/image_raw',
-                                    # 'cmd_vel_topic': '/cmd_vel_tracker',
-                                    # It is needed to publish to the cmd_vel_tracker and then twist_mux should return the cmd_vel_out
-                                    # cmd_vel_out should read by diff_drive but somehow diff_drive always try to read cmd_vel topic. 
                                     'cmd_vel_topic': '/cmd_vel_tracker',
                                     'enable_3d_tracker': 'false'}.items())
 

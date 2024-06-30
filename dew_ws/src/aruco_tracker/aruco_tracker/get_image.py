@@ -35,7 +35,7 @@ class ImagePublisher(Node):
                 msg.format = "jpeg"
                 msg.data = np.array(encimg).tobytes()
                 self.publisher_.publish(msg)
-                self.get_logger().info('Publishing compressed image')
+                # self.get_logger().info('Publishing compressed image')
             else:
                 self.get_logger().warn('Failed to compress image')
         else:

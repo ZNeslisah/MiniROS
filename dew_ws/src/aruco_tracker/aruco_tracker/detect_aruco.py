@@ -70,11 +70,11 @@ class ArucoDetector(Node):
                     cv2.circle(gray, (int(point[0]), int(point[1])), 5, (255, 0, 0), -1)
 
         # Display the original image with markers
-        cv2.imshow('Aruco Markers', cv_image)
+        # cv2.imshow('Aruco Markers', cv_image)
 
         # Display the grayscale image with corners
         # cv2.imshow('Grayscale Image with Corners', gray)
-        cv2.waitKey(1)
+        # cv2.waitKey(1)
 
 def main(args=None):
     rclpy.init(args=args)

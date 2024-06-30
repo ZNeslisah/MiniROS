@@ -1,1 +1,0 @@
-/home/mini/MiniROS/dew_ws/src/mini_robot/launch/camera.launch.py
