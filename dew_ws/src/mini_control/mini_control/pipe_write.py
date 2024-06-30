@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String
+from std_msgs.msg import String, Bool
 import socket
 from geometry_msgs.msg import Twist
 
@@ -27,6 +27,13 @@ class PicoSender(Node):
             'battery_color',  # New topic subscription
             self.battery_brightness_callback,
             10)
+        
+        self.subscription_sobe = self.create_subscription(
+            Bool,
+            'sobe',  # New topic subscription
+            self.sobe_callback,
+            10)
+        
         
         # UDP socket setup
         self.udp_ip = "224.0.0.253"  # Multicast IP
@@ -55,6 +62,11 @@ class PicoSender(Node):
     
         self.sock.sendto(message.encode(), (self.udp_ip, self.udp_port))
         # self.get_logger().info(f'Sending message: "{message}" to {self.udp_ip}:{self.udp_port}')
+    def sobe_callback(self, msg):
+        message = f'sobe|{msg.data}'
+    
+        self.sock.sendto(message.encode(), (self.udp_ip, self.udp_port))
+        # self.get_logger().info(f'Sending message: "{message}" to {self.udp_ip}:{self.udp_port}')    
 
 def main(args=None):
     rclpy.init(args=args)
@@ -158,4 +170,3 @@ if __name__ == '__main__':
 
 # if __name__ == '__main__':
 #     main()
-

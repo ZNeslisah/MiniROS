@@ -1,0 +1,37 @@
+[8.984s] Invoking command in '/home/mini/MiniROS/dew_ws/build/mini_control': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/mini_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/mini_control/build --no-deps symlink_data
+[11.846s] running develop
+[11.848s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[11.850s]   warnings.warn(
+[13.582s] running egg_info
+[13.583s] creating mini_control.egg-info
+[13.584s] writing mini_control.egg-info/PKG-INFO
+[13.586s] writing dependency_links to mini_control.egg-info/dependency_links.txt
+[13.587s] writing entry points to mini_control.egg-info/entry_points.txt
+[13.588s] writing requirements to mini_control.egg-info/requires.txt
+[13.589s] writing top-level names to mini_control.egg-info/top_level.txt
+[13.590s] writing manifest file 'mini_control.egg-info/SOURCES.txt'
+[13.604s] reading manifest file 'mini_control.egg-info/SOURCES.txt'
+[13.609s] writing manifest file 'mini_control.egg-info/SOURCES.txt'
+[13.621s] running build_ext
+[13.622s] Creating /home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages/mini-control.egg-link (link to .)
+[13.630s] Installing battery script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[13.631s] Installing bumper script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[13.632s] Installing camera_test script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[13.635s] Installing emergency_button script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[13.636s] Installing improved_teleop_key script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[13.637s] Installing neopixel script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[13.637s] Installing pipe_read script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[13.639s] Installing pipe_write script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[13.645s] Installing velocity_node script to /home/mini/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[13.647s] 
+[13.648s] Installed /home/mini/MiniROS/dew_ws/build/mini_control
+[13.649s] running symlink_data
+[13.650s] creating /home/mini/MiniROS/dew_ws/install/mini_control/share/ament_index
+[13.652s] creating /home/mini/MiniROS/dew_ws/install/mini_control/share/ament_index/resource_index
+[13.653s] creating /home/mini/MiniROS/dew_ws/install/mini_control/share/ament_index/resource_index/packages
+[13.655s] symbolically linking /home/mini/MiniROS/dew_ws/build/mini_control/resource/mini_control -> /home/mini/MiniROS/dew_ws/install/mini_control/share/ament_index/resource_index/packages
+[13.656s] symbolically linking /home/mini/MiniROS/dew_ws/build/mini_control/package.xml -> /home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control
+[13.657s] creating /home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/launch
+[13.658s] symbolically linking /home/mini/MiniROS/dew_ws/build/mini_control/launch/emergency_launch.py -> /home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/launch
+[13.659s] symbolically linking /home/mini/MiniROS/dew_ws/build/mini_control/launch/battery.launch.py -> /home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/launch
+[13.987s] Invoked command in '/home/mini/MiniROS/dew_ws/build/mini_control' returned '0': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/mini_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/mini_control/build --no-deps symlink_data

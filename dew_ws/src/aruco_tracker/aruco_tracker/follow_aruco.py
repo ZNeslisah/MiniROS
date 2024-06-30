@@ -3,6 +3,7 @@ from rclpy.node import Node
 from geometry_msgs.msg import Twist, PolygonStamped
 import numpy as np
 from rclpy.timer import Timer
+from std_msgs.msg import Bool
 
 class FollowAruco(Node):
     def __init__(self):
@@ -13,8 +14,10 @@ class FollowAruco(Node):
             self.listener_callback,
             10)
         self.publisher_ = self.create_publisher(Twist, '/cmd_vel_aruco', 10)
+        self.sobe_publisher = self.create_publisher(Bool, 'sobe', 10)
         self.subscription  # prevent unused variable warning
         self.publisher_  # prevent unused variable warning
+        self.sobe_publisher  # prevent unused variable warning
 
         self.last_marker_time = self.get_clock().now()
         self.no_marker_timeout = 2.0  # seconds without marker before rotating
@@ -32,6 +35,8 @@ class FollowAruco(Node):
 
             # Calculate the size of the marker (using the distance between two opposite corners)
             size = np.linalg.norm(corners[0] - corners[2])
+            
+            self.get_logger().info(f'size{size}')
 
             # Image dimensions (assuming some known width)
             w = 1280  # Replace with your camera's width
@@ -43,14 +48,19 @@ class FollowAruco(Node):
             # Calculate linear velocity based on marker size
             reference_size = 700  # Size of the marker at the desired distance
             max_linear_velocity = 0.4  # Maximum linear velocity
-            min_linear_velocity = 0.05  # Minimum linear velocity
+            min_linear_velocity = 0.35  # Minimum linear velocity
 
             if size < reference_size:
                 linear_velocity = 0.0011 * (reference_size - size)
             else:
                 linear_velocity = 0.0
                 angular_velocity = 0.0
-
+                self.publish_sobe(True)
+            if linear_velocity < min_linear_velocity:
+                self.get_logger().info(f'I am here')
+                linear_velocity = 0.0
+                angular_velocity = 0.0 
+                self.publish_sobe(True)      
             # Publish the calculated velocities
             self.publish_velocity(linear_velocity, angular_velocity)
         else:
@@ -67,12 +77,18 @@ class FollowAruco(Node):
 
         self.publisher_.publish(twist)
 
+    def publish_sobe(self, state):
+        sobe_msg = Bool()
+        sobe_msg.data = state
+        self.sobe_publisher.publish(sobe_msg)
+        self.get_logger().info(f'Published "sobe" message with state: {state}')      
+
     def check_marker_timeout(self):
         current_time = self.get_clock().now()
-        time_since_last_marker = (current_time - self.last_marker_time).seconds
+        time_since_last_marker = (current_time - self.last_marker_time).nanoseconds/1e9
         if time_since_last_marker > self.no_marker_timeout:
             self.get_logger().info('No marker detected for a while, rotating to search')
-            self.publish_velocity(0.0, 0.38)  # Rotate in place
+            self.publish_velocity(0.0, 0.6)  # Rotate in place
 
 def main(args=None):
     rclpy.init(args=args)

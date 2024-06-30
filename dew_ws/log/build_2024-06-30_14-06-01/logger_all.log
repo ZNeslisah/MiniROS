@@ -1,0 +1,302 @@
+[0.772s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.772s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8acf7c70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8aee8340>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8aee8340>>, mixin_verb=('build',))
+[2.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.061s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mini/MiniROS/dew_ws'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extensions ['ignore', 'ignore_ament_install']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extension 'ignore'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extension 'ignore_ament_install'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extensions ['colcon_pkg']
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extension 'colcon_pkg'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extensions ['colcon_meta']
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extension 'colcon_meta'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extensions ['ros']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extension 'ros'
+[2.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_tracker' with type 'ros.ament_python' and name 'aruco_tracker'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['ignore', 'ignore_ament_install']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ignore'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ignore_ament_install'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['colcon_pkg']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'colcon_pkg'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['colcon_meta']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'colcon_meta'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['ros']
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ros'
+[2.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ball_tracker' with type 'ros.ament_python' and name 'ball_tracker'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extensions ['ignore', 'ignore_ament_install']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extension 'ignore'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extension 'ignore_ament_install'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extensions ['colcon_pkg']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extension 'colcon_pkg'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extensions ['colcon_meta']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extension 'colcon_meta'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extensions ['ros']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extension 'ros'
+[2.197s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mini_control' with type 'ros.ament_python' and name 'mini_control'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extensions ['ignore', 'ignore_ament_install']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extension 'ignore'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extension 'ignore_ament_install'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extensions ['colcon_pkg']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extension 'colcon_pkg'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extensions ['colcon_meta']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extension 'colcon_meta'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extensions ['ros']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extension 'ros'
+[2.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mini_robot' with type 'ros.ament_cmake' and name 'mini_robot'
+[2.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.356s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/mini/MiniROS/dew_ws/install
+[2.359s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/mini/Downloads/MiniROSof/dew_ws/install
+[2.372s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 281 installed packages in /opt/ros/humble
+[2.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.646s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_args' from command line to 'None'
+[2.646s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_target' from command line to 'None'
+[2.646s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.647s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[2.647s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[2.647s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[2.647s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[2.647s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[2.647s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.648s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mini/MiniROS/dew_ws/build/aruco_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mini/MiniROS/dew_ws/install/aruco_tracker', 'merge_install': False, 'path': '/home/mini/MiniROS/dew_ws/src/aruco_tracker', 'symlink_install': True, 'test_result_base': None}
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_args' from command line to 'None'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_target' from command line to 'None'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[2.650s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[2.651s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.651s] DEBUG:colcon.colcon_core.verb:Building package 'ball_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mini/MiniROS/dew_ws/build/ball_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mini/MiniROS/dew_ws/install/ball_tracker', 'merge_install': False, 'path': '/home/mini/MiniROS/dew_ws/src/ball_tracker', 'symlink_install': True, 'test_result_base': None}
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'cmake_args' from command line to 'None'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'cmake_target' from command line to 'None'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.654s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.654s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.654s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.654s] DEBUG:colcon.colcon_core.verb:Building package 'mini_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mini/MiniROS/dew_ws/build/mini_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mini/MiniROS/dew_ws/install/mini_control', 'merge_install': False, 'path': '/home/mini/MiniROS/dew_ws/src/mini_control', 'symlink_install': True, 'test_result_base': None}
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'cmake_args' from command line to 'None'
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'cmake_target' from command line to 'None'
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'cmake_clean_first' from command line to 'False'
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'cmake_force_configure' from command line to 'False'
+[2.657s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'ament_cmake_args' from command line to 'None'
+[2.657s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.657s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.657s] DEBUG:colcon.colcon_core.verb:Building package 'mini_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mini/MiniROS/dew_ws/build/mini_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mini/MiniROS/dew_ws/install/mini_robot', 'merge_install': False, 'path': '/home/mini/MiniROS/dew_ws/src/mini_robot', 'symlink_install': True, 'test_result_base': None}
+[2.658s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.661s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.663s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mini/MiniROS/dew_ws/src/aruco_tracker' with build type 'ament_python'
+[2.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_tracker', 'ament_prefix_path')
+[2.689s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/hook/ament_prefix_path.ps1'
+[2.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/hook/ament_prefix_path.dsv'
+[2.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/hook/ament_prefix_path.sh'
+[2.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.739s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mini/MiniROS/dew_ws/src/ball_tracker' with build type 'ament_python'
+[2.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'ament_prefix_path')
+[2.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.ps1'
+[2.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mini/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.dsv'
+[2.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.sh'
+[2.750s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.751s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.789s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mini/MiniROS/dew_ws/src/mini_control' with build type 'ament_python'
+[2.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_control', 'ament_prefix_path')
+[2.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/hook/ament_prefix_path.ps1'
+[2.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/hook/ament_prefix_path.dsv'
+[2.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/hook/ament_prefix_path.sh'
+[2.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.837s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mini/MiniROS/dew_ws/src/mini_robot' with build type 'ament_cmake'
+[2.837s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mini/MiniROS/dew_ws/src/mini_robot'
+[2.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.468s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mini/MiniROS/dew_ws/src/aruco_tracker'
+[4.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.056s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mini/MiniROS/dew_ws/src/ball_tracker'
+[6.057s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.058s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.651s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mini/MiniROS/dew_ws/src/mini_control'
+[7.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mini/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/home/mini/MiniROS/dew_ws/install/aruco_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/mini_control:/home/mini/Downloads/MiniROSof/dew_ws/install/ball_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --build /home/mini/MiniROS/dew_ws/build/mini_robot -- -j4 -l4
+[8.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mini/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/home/mini/MiniROS/dew_ws/install/aruco_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/mini_control:/home/mini/Downloads/MiniROSof/dew_ws/install/ball_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --build /home/mini/MiniROS/dew_ws/build/mini_robot -- -j4 -l4
+[8.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mini/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/home/mini/MiniROS/dew_ws/install/aruco_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/mini_control:/home/mini/Downloads/MiniROSof/dew_ws/install/ball_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --install /home/mini/MiniROS/dew_ws/build/mini_robot
+[8.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_robot)
+[8.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mini/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/home/mini/MiniROS/dew_ws/install/aruco_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/mini_control:/home/mini/Downloads/MiniROSof/dew_ws/install/ball_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --install /home/mini/MiniROS/dew_ws/build/mini_robot
+[8.814s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_robot' for CMake module files
+[8.818s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_robot' for CMake config files
+[8.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_robot', 'cmake_prefix_path')
+[8.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/hook/cmake_prefix_path.ps1'
+[8.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/hook/cmake_prefix_path.dsv'
+[8.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/hook/cmake_prefix_path.sh'
+[8.851s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_robot/bin'
+[8.852s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_robot/lib/pkgconfig/mini_robot.pc'
+[8.865s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_robot/lib/python3.10/site-packages'
+[8.868s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_robot/bin'
+[8.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.ps1'
+[8.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.dsv'
+[8.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.sh'
+[8.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.bash'
+[8.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.zsh'
+[8.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mini/MiniROS/dew_ws/install/mini_robot/share/colcon-core/packages/mini_robot)
+[9.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_robot)
+[9.133s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_robot' for CMake module files
+[9.137s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_robot' for CMake config files
+[9.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_robot', 'cmake_prefix_path')
+[9.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/hook/cmake_prefix_path.ps1'
+[9.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/hook/cmake_prefix_path.dsv'
+[9.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/hook/cmake_prefix_path.sh'
+[9.162s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_robot/bin'
+[9.163s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_robot/lib/pkgconfig/mini_robot.pc'
+[9.175s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_robot/lib/python3.10/site-packages'
+[9.177s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_robot/bin'
+[9.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.ps1'
+[9.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.dsv'
+[9.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.sh'
+[9.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.bash'
+[9.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.zsh'
+[9.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mini/MiniROS/dew_ws/install/mini_robot/share/colcon-core/packages/mini_robot)
+[11.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mini/MiniROS/dew_ws/build/ball_tracker': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/ball_tracker/build --no-deps symlink_data
+[11.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mini/MiniROS/dew_ws/build/mini_control': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/mini_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/mini_control/build --no-deps symlink_data
+[11.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mini/MiniROS/dew_ws/build/aruco_tracker': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/aruco_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/aruco_tracker/build --no-deps symlink_data
+[15.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'pythonpath_develop')
+[15.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.ps1'
+[15.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mini/MiniROS/dew_ws/build/ball_tracker' returned '0': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/ball_tracker/build --no-deps symlink_data
+[15.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mini/MiniROS/dew_ws/build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.dsv'
+[15.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.sh'
+[15.258s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/ball_tracker' for CMake module files
+[15.261s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/ball_tracker' for CMake config files
+[15.266s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/ball_tracker/lib'
+[15.267s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/ball_tracker/bin'
+[15.267s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/ball_tracker/lib/pkgconfig/ball_tracker.pc'
+[15.268s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages'
+[15.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'pythonpath')
+[15.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/hook/pythonpath.ps1'
+[15.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mini/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/hook/pythonpath.dsv'
+[15.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/hook/pythonpath.sh'
+[15.281s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/ball_tracker/bin'
+[15.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ball_tracker)
+[15.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/package.ps1'
+[15.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mini/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/package.dsv'
+[15.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/package.sh'
+[15.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/package.bash'
+[15.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/package.zsh'
+[15.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mini/MiniROS/dew_ws/install/ball_tracker/share/colcon-core/packages/ball_tracker)
+[15.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_control', 'pythonpath_develop')
+[15.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/build/mini_control/share/mini_control/hook/pythonpath_develop.ps1'
+[15.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mini/MiniROS/dew_ws/build/mini_control' returned '0': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/mini_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/mini_control/build --no-deps symlink_data
+[15.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mini/MiniROS/dew_ws/build/mini_control/share/mini_control/hook/pythonpath_develop.dsv'
+[15.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/build/mini_control/share/mini_control/hook/pythonpath_develop.sh'
+[15.325s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_control' for CMake module files
+[15.330s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_control' for CMake config files
+[15.334s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_control/lib'
+[15.335s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_control/bin'
+[15.336s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_control/lib/pkgconfig/mini_control.pc'
+[15.337s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages'
+[15.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_control', 'pythonpath')
+[15.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/hook/pythonpath.ps1'
+[15.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/hook/pythonpath.dsv'
+[15.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/hook/pythonpath.sh'
+[15.349s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/mini_control/bin'
+[15.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_control)
+[15.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/package.ps1'
+[15.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/package.dsv'
+[15.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/package.sh'
+[15.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/package.bash'
+[15.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/mini_control/share/mini_control/package.zsh'
+[15.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mini/MiniROS/dew_ws/install/mini_control/share/colcon-core/packages/mini_control)
+[15.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_tracker', 'pythonpath_develop')
+[15.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/build/aruco_tracker/share/aruco_tracker/hook/pythonpath_develop.ps1'
+[15.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mini/MiniROS/dew_ws/build/aruco_tracker' returned '0': PYTHONPATH=/home/mini/MiniROS/dew_ws/build/aruco_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mini/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mini/MiniROS/dew_ws/build/aruco_tracker/build --no-deps symlink_data
+[15.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mini/MiniROS/dew_ws/build/aruco_tracker/share/aruco_tracker/hook/pythonpath_develop.dsv'
+[15.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/build/aruco_tracker/share/aruco_tracker/hook/pythonpath_develop.sh'
+[15.560s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/aruco_tracker' for CMake module files
+[15.564s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/aruco_tracker' for CMake config files
+[15.569s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/aruco_tracker/lib'
+[15.570s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/aruco_tracker/bin'
+[15.570s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/aruco_tracker/lib/pkgconfig/aruco_tracker.pc'
+[15.572s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages'
+[15.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_tracker', 'pythonpath')
+[15.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/hook/pythonpath.ps1'
+[15.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/hook/pythonpath.dsv'
+[15.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/hook/pythonpath.sh'
+[15.582s] Level 1:colcon.colcon_core.environment:checking '/home/mini/MiniROS/dew_ws/install/aruco_tracker/bin'
+[15.583s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_tracker)
+[15.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/package.ps1'
+[15.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/package.dsv'
+[15.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/package.sh'
+[15.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/package.bash'
+[15.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/mini/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/package.zsh'
+[15.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mini/MiniROS/dew_ws/install/aruco_tracker/share/colcon-core/packages/aruco_tracker)
+[15.611s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.613s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.613s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.614s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.664s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.664s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.665s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.760s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.762s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mini/MiniROS/dew_ws/install/local_setup.ps1'
+[15.771s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mini/MiniROS/dew_ws/install/_local_setup_util_ps1.py'
+[15.783s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mini/MiniROS/dew_ws/install/setup.ps1'
+[15.796s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mini/MiniROS/dew_ws/install/local_setup.sh'
+[15.804s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mini/MiniROS/dew_ws/install/_local_setup_util_sh.py'
+[15.810s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mini/MiniROS/dew_ws/install/setup.sh'
+[15.823s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mini/MiniROS/dew_ws/install/local_setup.bash'
+[15.828s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mini/MiniROS/dew_ws/install/setup.bash'
+[15.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mini/MiniROS/dew_ws/install/local_setup.zsh'
+[15.848s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mini/MiniROS/dew_ws/install/setup.zsh'

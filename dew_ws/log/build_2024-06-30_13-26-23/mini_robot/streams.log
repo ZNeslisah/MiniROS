@@ -1,0 +1,77 @@
+[4.687s] Invoking command in '/home/mini/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/home/mini/MiniROS/dew_ws/install/aruco_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/mini_control:/home/mini/Downloads/MiniROSof/dew_ws/install/ball_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake /home/mini/MiniROS/dew_ws/src/mini_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mini/MiniROS/dew_ws/install/mini_robot
+[6.133s] -- The C compiler identification is GNU 11.4.0
+[7.002s] -- The CXX compiler identification is GNU 11.4.0
+[7.099s] -- Detecting C compiler ABI info
+[7.779s] -- Detecting C compiler ABI info - done
+[7.811s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.815s] -- Detecting C compile features
+[7.818s] -- Detecting C compile features - done
+[7.840s] -- Detecting CXX compiler ABI info
+[8.351s] -- Detecting CXX compiler ABI info - done
+[8.390s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.391s] -- Detecting CXX compile features
+[8.393s] -- Detecting CXX compile features - done
+[8.511s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[10.285s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.111s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[12.393s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.389s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.517s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.518s] -- Configured cppcheck include dirs: 
+[13.518s] -- Configured cppcheck exclude dirs and/or files: 
+[13.771s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.773s] -- Configured cpplint exclude dirs and/or files: 
+[13.797s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.840s] -- Added test 'lint_cmake' to check CMake code style
+[13.860s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.999s] -- Added test 'uncrustify' to check C / C++ code style
+[14.000s] -- Configured uncrustify additional arguments: 
+[14.028s] -- Added test 'xmllint' to check XML markup files
+[14.061s] -- Configuring done
+[14.109s] -- Generating done
+[14.136s] -- Build files have been written to: /home/mini/MiniROS/dew_ws/build/mini_robot
+[14.200s] Invoked command in '/home/mini/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/home/mini/MiniROS/dew_ws/install/aruco_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/mini_control:/home/mini/Downloads/MiniROSof/dew_ws/install/ball_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake /home/mini/MiniROS/dew_ws/src/mini_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mini/MiniROS/dew_ws/install/mini_robot
+[14.208s] Invoking command in '/home/mini/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/home/mini/MiniROS/dew_ws/install/aruco_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/mini_control:/home/mini/Downloads/MiniROSof/dew_ws/install/ball_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --build /home/mini/MiniROS/dew_ws/build/mini_robot -- -j4 -l4
+[14.418s] Invoked command in '/home/mini/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/home/mini/MiniROS/dew_ws/install/aruco_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/mini_control:/home/mini/Downloads/MiniROSof/dew_ws/install/ball_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --build /home/mini/MiniROS/dew_ws/build/mini_robot -- -j4 -l4
+[14.607s] Invoking command in '/home/mini/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/home/mini/MiniROS/dew_ws/install/aruco_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/mini_control:/home/mini/Downloads/MiniROSof/dew_ws/install/ball_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --install /home/mini/MiniROS/dew_ws/build/mini_robot
+[14.638s] -- Install configuration: ""
+[14.640s] -- Execute custom install script
+[14.643s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/ball_tracker_params_robot.yaml
+[14.681s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/ball_tracker_params_sim.yaml
+[14.721s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/drive_bot.rviz
+[14.758s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/empty.yaml
+[14.795s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/gazebo_params.yaml
+[14.837s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/joystick.yaml
+[14.873s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/main.rviz
+[14.912s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/twist_mux.yaml
+[14.951s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/view_bot.rviz
+[14.990s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/camera.xacro
+[15.029s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/gazebo_control.xacro
+[15.069s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/inertial_macros.xacro
+[15.109s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/robot.urdf.xacro
+[15.147s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/robot_core.xacro
+[15.186s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/ball_tracker.launch.py
+[15.226s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/joystick.launch.py
+[15.263s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/launch_robot.launch.py
+[15.301s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/launch_sim.launch.py
+[15.340s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/letsStart.launch.py
+[15.377s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/rsp.launch.py
+[15.417s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/aruco.world
+[15.453s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/empty.world
+[15.490s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/obstacles.world
+[15.530s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/ament_index/resource_index/package_run_dependencies/mini_robot
+[15.569s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/ament_index/resource_index/parent_prefix_path/mini_robot
+[15.607s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/ament_prefix_path.sh
+[15.647s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/ament_prefix_path.dsv
+[15.685s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/path.sh
+[15.726s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/path.dsv
+[15.762s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.bash
+[15.800s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.sh
+[15.839s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.zsh
+[15.877s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.dsv
+[15.916s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.dsv
+[15.955s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/ament_index/resource_index/packages/mini_robot
+[15.994s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/cmake/mini_robotConfig.cmake
+[16.033s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/cmake/mini_robotConfig-version.cmake
+[16.071s] -- Symlinking: /home/mini/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.xml
+[16.117s] Invoked command in '/home/mini/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mini/MiniROS/dew_ws/install/mini_control:/home/mini/MiniROS/dew_ws/install/ball_tracker:/home/mini/MiniROS/dew_ws/install/aruco_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/mini_control:/home/mini/Downloads/MiniROSof/dew_ws/install/ball_tracker:/home/mini/Downloads/MiniROSof/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --install /home/mini/MiniROS/dew_ws/build/mini_robot

@@ -12,6 +12,8 @@ class ImagePublisher(Node):
         self.timer = self.create_timer(0.5, self.timer_callback)
         self.picam2 = Picamera2()
 
+        # 0.2, 640,480 80
+
         config = self.picam2.create_preview_configuration(main={"size": (1280, 720)})  # Example
         self.picam2.configure(config)
         self.picam2.start()
