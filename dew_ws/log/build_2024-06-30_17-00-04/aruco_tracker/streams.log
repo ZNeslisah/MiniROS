@@ -1,0 +1,20 @@
+[1.011s] Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/build --no-deps symlink_data
+[1.239s] running develop
+[1.411s] running egg_info
+[1.412s] writing aruco_tracker.egg-info/PKG-INFO
+[1.412s] writing dependency_links to aruco_tracker.egg-info/dependency_links.txt
+[1.412s] writing entry points to aruco_tracker.egg-info/entry_points.txt
+[1.412s] writing requirements to aruco_tracker.egg-info/requires.txt
+[1.412s] writing top-level names to aruco_tracker.egg-info/top_level.txt
+[1.414s] reading manifest file 'aruco_tracker.egg-info/SOURCES.txt'
+[1.414s] writing manifest file 'aruco_tracker.egg-info/SOURCES.txt'
+[1.415s] running build_ext
+[1.415s] Creating /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages/aruco-tracker.egg-link (link to .)
+[1.416s] Installing detect_aruco script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/aruco_tracker
+[1.416s] Installing follow_aruco script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/aruco_tracker
+[1.417s] Installing get_image script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/aruco_tracker
+[1.417s] Installing image_listener script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/aruco_tracker
+[1.417s] 
+[1.417s] Installed /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker
+[1.417s] running symlink_data
+[1.448s] Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker' returned '0': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/build --no-deps symlink_data

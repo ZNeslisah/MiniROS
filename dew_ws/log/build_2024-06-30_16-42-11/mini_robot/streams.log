@@ -1,0 +1,77 @@
+[0.709s] Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot
+[0.777s] -- The C compiler identification is GNU 11.4.0
+[0.834s] -- The CXX compiler identification is GNU 11.4.0
+[0.841s] -- Detecting C compiler ABI info
+[0.888s] -- Detecting C compiler ABI info - done
+[0.894s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.894s] -- Detecting C compile features
+[0.895s] -- Detecting C compile features - done
+[0.898s] -- Detecting CXX compiler ABI info
+[0.953s] -- Detecting CXX compiler ABI info - done
+[0.959s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.959s] -- Detecting CXX compile features
+[0.959s] -- Detecting CXX compile features - done
+[0.963s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.075s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.129s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.152s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.217s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.221s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.222s] -- Configured cppcheck include dirs: 
+[1.222s] -- Configured cppcheck exclude dirs and/or files: 
+[1.226s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.226s] -- Configured cpplint exclude dirs and/or files: 
+[1.227s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.228s] -- Added test 'lint_cmake' to check CMake code style
+[1.229s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.233s] -- Added test 'uncrustify' to check C / C++ code style
+[1.233s] -- Configured uncrustify additional arguments: 
+[1.234s] -- Added test 'xmllint' to check XML markup files
+[1.236s] -- Configuring done
+[1.238s] -- Generating done
+[1.239s] -- Build files have been written to: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot
+[1.242s] Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot
+[1.244s] Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot -- -j16 -l16
+[1.269s] Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot -- -j16 -l16
+[1.291s] Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot
+[1.297s] -- Install configuration: ""
+[1.297s] -- Execute custom install script
+[1.297s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/ball_tracker_params_robot.yaml
+[1.304s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/ball_tracker_params_sim.yaml
+[1.309s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/drive_bot.rviz
+[1.315s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/empty.yaml
+[1.322s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/gazebo_params.yaml
+[1.328s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/joystick.yaml
+[1.334s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/main.rviz
+[1.340s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/twist_mux.yaml
+[1.347s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/view_bot.rviz
+[1.353s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/camera.xacro
+[1.359s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/gazebo_control.xacro
+[1.365s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/inertial_macros.xacro
+[1.372s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/robot.urdf.xacro
+[1.379s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/robot_core.xacro
+[1.385s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/ball_tracker.launch.py
+[1.391s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/joystick.launch.py
+[1.397s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/launch_robot.launch.py
+[1.402s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/launch_sim.launch.py
+[1.408s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/letsStart.launch.py
+[1.414s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/rsp.launch.py
+[1.420s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/aruco.world
+[1.426s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/empty.world
+[1.432s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/obstacles.world
+[1.438s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/ament_index/resource_index/package_run_dependencies/mini_robot
+[1.444s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/ament_index/resource_index/parent_prefix_path/mini_robot
+[1.450s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/ament_prefix_path.sh
+[1.456s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/ament_prefix_path.dsv
+[1.462s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/path.sh
+[1.468s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/path.dsv
+[1.473s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.bash
+[1.479s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.sh
+[1.485s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.zsh
+[1.491s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.dsv
+[1.497s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.dsv
+[1.503s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/ament_index/resource_index/packages/mini_robot
+[1.509s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/cmake/mini_robotConfig.cmake
+[1.516s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/cmake/mini_robotConfig-version.cmake
+[1.523s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.xml
+[1.531s] Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot

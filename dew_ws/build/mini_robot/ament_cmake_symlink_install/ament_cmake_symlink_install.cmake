@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/mini/MiniROS/dew_ws/install/mini_robot/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/mini/MiniROS/dew_ws/install/mini_robot/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/mini/MiniROS/dew_ws/install/mini_robot/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/mini/MiniROS/dew_ws/install/mini_robot/${destination}")
+      set(destination "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/mini_robot")
-ament_cmake_symlink_install_directory("/home/mini/MiniROS/dew_ws/src/mini_robot" DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/mini_robot")
+ament_cmake_symlink_install_directory("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/mini_robot")
 
-# install(FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mini_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mini_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mini_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mini_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mini_robot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mini_robot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mini_robot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mini_robot" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/mini_robot/environment")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/mini_robot/environment")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/mini_robot/environment")
 
-# install(FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/mini_robot/environment")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/mini_robot/environment")
+# install(FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/mini_robot/environment")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/mini_robot/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/mini_robot/environment")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/mini_robot/environment")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/mini_robot/environment")
 
-# install(FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/mini_robot/environment")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/mini_robot/environment")
+# install(FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/mini_robot/environment")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/mini_robot/environment")
 
-# install(FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mini_robot")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mini_robot")
+# install(FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mini_robot")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mini_robot")
 
-# install(FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mini_robot")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mini_robot")
+# install(FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mini_robot")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mini_robot")
 
-# install(FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mini_robot")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mini_robot")
+# install(FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mini_robot")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mini_robot")
 
-# install(FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/mini_robot")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/mini_robot")
+# install(FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/mini_robot")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/mini_robot")
 
-# install(FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mini_robot")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mini_robot")
+# install(FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mini_robot")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mini_robot")
 
-# install(FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_index/share/ament_index/resource_index/packages/mini_robot" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_index/share/ament_index/resource_index/packages/mini_robot" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_index/share/ament_index/resource_index/packages/mini_robot" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_index/share/ament_index/resource_index/packages/mini_robot" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_core/mini_robotConfig.cmake" "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_core/mini_robotConfig-version.cmake" "DESTINATION" "share/mini_robot/cmake")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_core/mini_robotConfig.cmake" "/home/mini/MiniROS/dew_ws/build/mini_robot/ament_cmake_core/mini_robotConfig-version.cmake" "DESTINATION" "share/mini_robot/cmake")
+# install(FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_core/mini_robotConfig.cmake" "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_core/mini_robotConfig-version.cmake" "DESTINATION" "share/mini_robot/cmake")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_core/mini_robotConfig.cmake" "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot/ament_cmake_core/mini_robotConfig-version.cmake" "DESTINATION" "share/mini_robot/cmake")
 
-# install(FILES "/home/mini/MiniROS/dew_ws/src/mini_robot/package.xml" "DESTINATION" "share/mini_robot")
-ament_cmake_symlink_install_files("/home/mini/MiniROS/dew_ws/src/mini_robot" FILES "/home/mini/MiniROS/dew_ws/src/mini_robot/package.xml" "DESTINATION" "share/mini_robot")
+# install(FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot/package.xml" "DESTINATION" "share/mini_robot")
+ament_cmake_symlink_install_files("/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot" FILES "/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot/package.xml" "DESTINATION" "share/mini_robot")

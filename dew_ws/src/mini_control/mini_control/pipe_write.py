@@ -40,6 +40,7 @@ class PicoSender(Node):
         self.udp_port = 5007         # Multicast port
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
         
+        
         # Set the TTL (time-to-live) for the multicast message to 1 (local network)
         self.sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, 1)
     
@@ -66,7 +67,9 @@ class PicoSender(Node):
         message = f'sobe|{msg.data}'
     
         self.sock.sendto(message.encode(), (self.udp_ip, self.udp_port))
-        # self.get_logger().info(f'Sending message: "{message}" to {self.udp_ip}:{self.udp_port}')    
+        # self.get_logger().info(f'Sending message: "{message}" to {self.udp_ip}:{self.udp_port}')   
+
+     
 
 def main(args=None):
     rclpy.init(args=args)

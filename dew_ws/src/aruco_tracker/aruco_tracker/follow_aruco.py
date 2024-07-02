@@ -48,10 +48,12 @@ class FollowAruco(Node):
             # Calculate linear velocity based on marker size
             reference_size = 700  # Size of the marker at the desired distance
             max_linear_velocity = 0.4  # Maximum linear velocity
-            min_linear_velocity = 0.35  # Minimum linear velocity
+            min_linear_velocity = 0.05  # Minimum linear velocity
 
             if size < reference_size:
                 linear_velocity = 0.0011 * (reference_size - size)
+                self.publish_sobe(False)      
+
             else:
                 linear_velocity = 0.0
                 angular_velocity = 0.0
@@ -89,6 +91,8 @@ class FollowAruco(Node):
         if time_since_last_marker > self.no_marker_timeout:
             self.get_logger().info('No marker detected for a while, rotating to search')
             self.publish_velocity(0.0, 0.6)  # Rotate in place
+            self.publish_sobe(False)      
+
 
 def main(args=None):
     rclpy.init(args=args)

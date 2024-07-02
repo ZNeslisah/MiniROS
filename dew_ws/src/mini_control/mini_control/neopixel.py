@@ -35,8 +35,8 @@ class NeoPixelNode(Node):
             'sobe',
             self.sobe_callback,
             10)
-        self.publisher = self.create_publisher(String, 'pixel_color', 10)
-        self.battery_brightness_publisher = self.create_publisher(String, 'battery_color', 10)
+        self.publisher = self.create_publisher(String, 'pixel_color', 18)
+        self.battery_brightness_publisher = self.create_publisher(String, 'battery_color', 18)
 
         # Initialize states
         self.bumper_state = False

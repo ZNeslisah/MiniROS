@@ -1,0 +1,25 @@
+[0.997s] Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control/build --no-deps symlink_data
+[1.221s] running develop
+[1.390s] running egg_info
+[1.390s] writing mini_control.egg-info/PKG-INFO
+[1.391s] writing dependency_links to mini_control.egg-info/dependency_links.txt
+[1.391s] writing entry points to mini_control.egg-info/entry_points.txt
+[1.391s] writing requirements to mini_control.egg-info/requires.txt
+[1.391s] writing top-level names to mini_control.egg-info/top_level.txt
+[1.392s] reading manifest file 'mini_control.egg-info/SOURCES.txt'
+[1.393s] writing manifest file 'mini_control.egg-info/SOURCES.txt'
+[1.394s] running build_ext
+[1.394s] Creating /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages/mini-control.egg-link (link to .)
+[1.394s] Installing battery script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[1.395s] Installing bumper script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[1.395s] Installing camera_test script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[1.395s] Installing emergency_button script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[1.395s] Installing improved_teleop_key script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[1.395s] Installing neopixel script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[1.395s] Installing pipe_read script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[1.395s] Installing pipe_write script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[1.395s] Installing velocity_node script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/mini_control
+[1.396s] 
+[1.396s] Installed /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control
+[1.396s] running symlink_data
+[1.420s] Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control' returned '0': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control/build --no-deps symlink_data
