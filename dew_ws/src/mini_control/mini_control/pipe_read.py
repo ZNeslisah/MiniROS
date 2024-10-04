@@ -17,6 +17,8 @@ class MulticastListenerNode(Node):
 
         self.publisher_button = self.create_publisher(Bool, 'isButtonPressed', 10)
         self.publisher_battery = self.create_publisher(String, 'battery_level', 10)
+        self.publisher_distance = self.create_publisher(String, 'distance', 10)
+        self.publisher_acceleration = self.create_publisher(String, 'acceleration', 10)
         self.sock = self.create_multicast_socket(MULTICAST_GROUP, MULTICAST_PORT)
         
         # Start listening in a separate thread to avoid blocking
@@ -39,12 +41,18 @@ class MulticastListenerNode(Node):
                 data, _ = self.sock.recvfrom(1024)
                 message = data.decode().strip()
                 message_parts = message.split('|')
-                if message_parts[0] == 'isButtonPressed':
+                if message_parts[0] == 'getDistance':
+                    distance = message_parts[1]
+                    self.publish_to_topic(self.publisher_distance, distance)
+                elif message_parts[0] == 'isButtonPressed':
                     bool_value = message_parts[1] == 'True'
                     self.publish_to_topic(self.publisher_button, bool_value)
                 elif message_parts[0] == 'battery':
                     battery_level = message_parts[1]
                     self.publish_to_topic(self.publisher_battery, battery_level)
+                elif message_parts[0] == 'getAcceleration':
+                    acceleration = message_parts[1]
+                    self.publish_to_topic(self.publisher_acceleration, acceleration)
             except OSError as e:
                 if e.args[0] == 11:  # EAGAIN, no data available
                     continue

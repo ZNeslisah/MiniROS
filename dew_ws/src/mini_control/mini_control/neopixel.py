@@ -48,7 +48,7 @@ class NeoPixelNode(Node):
 
     def generate_battery_color(self, level):
         red = int((1 - level / 10) * 255)
-        green = int((level / 10) * 255)
+        green = int((level / 10) * 255)   
         return f'{red},{green},0,1.0'
 
     def bumper_callback(self, msg):

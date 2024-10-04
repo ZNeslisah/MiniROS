@@ -9,6 +9,14 @@ class PicoSender(Node):
     def __init__(self):
         super().__init__('pico_sender')
         self.get_logger().info("PicoSender has started")
+
+        # Declare the 'mode' parameter with a default value
+        self.declare_parameter('mode', 'twoWheel')
+
+        # Retrieve the mode parameter value
+        self.mode = self.get_parameter('mode').get_parameter_value().string_value
+        print(f'Mode: {self.mode}')
+        
         # Subscriptions
         self.subscription_cmd_vel = self.create_subscription(
             Twist,
@@ -46,12 +54,17 @@ class PicoSender(Node):
     
     def cmd_vel_callback(self, msg):
         linear_x = msg.linear.x
+        linear_y = msg.linear.y
         angular_z = msg.angular.z
-        message = f'twoWheel|{linear_x},{angular_z}'
+
+        if self.mode == 'twoWheel':
+            message = f'twoWheel|{linear_x},{angular_z}'
+        elif self.mode == 'holonomic':
+            message = f'holonomic|{linear_x},{linear_y},{angular_z}'
     
         self.sock.sendto(message.encode(), (self.udp_ip, self.udp_port))
         # self.get_logger().info(f'Sending message: "{message}" to {self.udp_ip}:{self.udp_port}')
-    
+
     def pixel_color_callback(self, msg):
         message = f'neopixel|{msg.data}'
     

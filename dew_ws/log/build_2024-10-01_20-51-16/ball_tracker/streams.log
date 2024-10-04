@@ -1,0 +1,21 @@
+[1.221s] Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker/build --no-deps symlink_data
+[1.456s] /home/neslisah/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.456s]   warnings.warn(
+[1.503s] running develop
+[1.698s] running egg_info
+[1.698s] writing ball_tracker.egg-info/PKG-INFO
+[1.698s] writing dependency_links to ball_tracker.egg-info/dependency_links.txt
+[1.699s] writing entry points to ball_tracker.egg-info/entry_points.txt
+[1.699s] writing requirements to ball_tracker.egg-info/requires.txt
+[1.699s] writing top-level names to ball_tracker.egg-info/top_level.txt
+[1.701s] reading manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[1.708s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[1.709s] running build_ext
+[1.710s] Creating /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages/ball-tracker.egg-link (link to .)
+[1.710s] Installing detect_ball script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/lib/ball_tracker
+[1.711s] Installing detect_ball_3d script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/lib/ball_tracker
+[1.711s] Installing follow_ball script to /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/lib/ball_tracker
+[1.711s] 
+[1.712s] Installed /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker
+[1.712s] running symlink_data
+[1.768s] Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker' returned '0': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker/build --no-deps symlink_data

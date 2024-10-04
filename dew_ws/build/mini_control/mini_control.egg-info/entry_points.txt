@@ -2,6 +2,7 @@
 battery = mini_control.battery:main
 bumper = mini_control.bumper:main
 camera_test = mini_control.camera_test:main
+distance_node = mini_control.distance_node:main
 emergency_button = mini_control.emergency_button:main
 improved_teleop_key = mini_control.improved_teleop_key:main
 neopixel = mini_control.neopixel:main

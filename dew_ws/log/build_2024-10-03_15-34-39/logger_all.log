@@ -1,0 +1,301 @@
+[0.096s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.096s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71f9978fe0b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71f997a4abf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71f997a4abf0>>)
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.253s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_tracker) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_tracker' with type 'ros.ament_python' and name 'aruco_tracker'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ball_tracker' with type 'ros.ament_python' and name 'ball_tracker'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_control) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mini_control' with type 'ros.ament_python' and name 'mini_control'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_robot) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mini_robot' with type 'ros.ament_cmake' and name 'mini_robot'
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.295s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install
+[0.296s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 358 installed packages in /opt/ros/humble
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_target' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.334s] Level 5:colcon.colcon_core.verb:set package 'aruco_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.334s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker', 'merge_install': False, 'path': '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/aruco_tracker', 'symlink_install': True, 'test_result_base': None}
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_target' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.335s] DEBUG:colcon.colcon_core.verb:Building package 'ball_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker', 'merge_install': False, 'path': '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/ball_tracker', 'symlink_install': True, 'test_result_base': None}
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'cmake_target' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.335s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'mini_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'mini_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control', 'merge_install': False, 'path': '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_control', 'symlink_install': True, 'test_result_base': None}
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'mini_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'mini_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot', 'merge_install': False, 'path': '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot', 'symlink_install': True, 'test_result_base': None}
+[0.336s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.337s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.337s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/aruco_tracker' with build type 'ament_python'
+[0.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_tracker', 'ament_prefix_path')
+[0.340s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/hook/ament_prefix_path.ps1'
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/hook/ament_prefix_path.dsv'
+[0.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/hook/ament_prefix_path.sh'
+[0.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/ball_tracker' with build type 'ament_python'
+[0.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'ament_prefix_path')
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.ps1'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.dsv'
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.sh'
+[0.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.348s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_control' with build type 'ament_python'
+[0.349s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_control', 'ament_prefix_path')
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/share/mini_control/hook/ament_prefix_path.ps1'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/share/mini_control/hook/ament_prefix_path.dsv'
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/share/mini_control/hook/ament_prefix_path.sh'
+[0.350s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.350s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.353s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot' with build type 'ament_cmake'
+[0.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_robot'
+[0.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.627s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/aruco_tracker'
+[0.628s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.884s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/ball_tracker'
+[0.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.137s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/src/mini_control'
+[1.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --build /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot -- -j16 -l16
+[1.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --build /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot -- -j16 -l16
+[1.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --install /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot
+[1.233s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_robot)
+[1.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --install /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot' for CMake module files
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot' for CMake config files
+[1.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_robot', 'cmake_prefix_path')
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/hook/cmake_prefix_path.ps1'
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/hook/cmake_prefix_path.dsv'
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/hook/cmake_prefix_path.sh'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/bin'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/lib/pkgconfig/mini_robot.pc'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/lib/python3.10/site-packages'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/bin'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.ps1'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.dsv'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.sh'
+[1.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.bash'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.zsh'
+[1.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/colcon-core/packages/mini_robot)
+[1.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_robot)
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot' for CMake module files
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot' for CMake config files
+[1.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_robot', 'cmake_prefix_path')
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/hook/cmake_prefix_path.ps1'
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/hook/cmake_prefix_path.dsv'
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/hook/cmake_prefix_path.sh'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/bin'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/lib/pkgconfig/mini_robot.pc'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/lib/python3.10/site-packages'
+[1.264s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/bin'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.ps1'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.dsv'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.sh'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.bash'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.zsh'
+[1.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/colcon-core/packages/mini_robot)
+[1.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker/build --no-deps symlink_data
+[1.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/build --no-deps symlink_data
+[1.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control/build --no-deps symlink_data
+[2.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_tracker', 'pythonpath_develop')
+[2.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/share/aruco_tracker/hook/pythonpath_develop.ps1'
+[2.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker' returned '0': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/build --no-deps symlink_data
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/share/aruco_tracker/hook/pythonpath_develop.dsv'
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/aruco_tracker/share/aruco_tracker/hook/pythonpath_develop.sh'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker' for CMake module files
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker' for CMake config files
+[2.098s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib'
+[2.098s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/bin'
+[2.098s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/pkgconfig/aruco_tracker.pc'
+[2.098s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/lib/python3.10/site-packages'
+[2.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_tracker', 'pythonpath')
+[2.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/hook/pythonpath.ps1'
+[2.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/hook/pythonpath.dsv'
+[2.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/hook/pythonpath.sh'
+[2.100s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/bin'
+[2.100s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_tracker)
+[2.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/package.ps1'
+[2.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/package.dsv'
+[2.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/package.sh'
+[2.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/package.bash'
+[2.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/aruco_tracker/package.zsh'
+[2.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker/share/colcon-core/packages/aruco_tracker)
+[2.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'pythonpath_develop')
+[2.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.ps1'
+[2.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker' returned '0': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker/build --no-deps symlink_data
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.dsv'
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.sh'
+[2.104s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker' for CMake module files
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker' for CMake config files
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/lib'
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/bin'
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/lib/pkgconfig/ball_tracker.pc'
+[2.105s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/lib/python3.10/site-packages'
+[2.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'pythonpath')
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/hook/pythonpath.ps1'
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/hook/pythonpath.dsv'
+[2.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/hook/pythonpath.sh'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/bin'
+[2.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ball_tracker)
+[2.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/package.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/package.dsv'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/package.sh'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/package.bash'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/share/ball_tracker/package.zsh'
+[2.108s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker/share/colcon-core/packages/ball_tracker)
+[2.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_control', 'pythonpath_develop')
+[2.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control/share/mini_control/hook/pythonpath_develop.ps1'
+[2.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control/share/mini_control/hook/pythonpath_develop.dsv'
+[2.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control' returned '0': PYTHONPATH=/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control/build --no-deps symlink_data
+[2.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_control/share/mini_control/hook/pythonpath_develop.sh'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control' for CMake module files
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control' for CMake config files
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/bin'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/pkgconfig/mini_control.pc'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/lib/python3.10/site-packages'
+[2.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_control', 'pythonpath')
+[2.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/share/mini_control/hook/pythonpath.ps1'
+[2.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/share/mini_control/hook/pythonpath.dsv'
+[2.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/share/mini_control/hook/pythonpath.sh'
+[2.113s] Level 1:colcon.colcon_core.environment:checking '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/bin'
+[2.113s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_control)
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/share/mini_control/package.ps1'
+[2.114s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/share/mini_control/package.dsv'
+[2.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/share/mini_control/package.sh'
+[2.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/share/mini_control/package.bash'
+[2.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/share/mini_control/package.zsh'
+[2.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control/share/colcon-core/packages/mini_control)
+[2.115s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.115s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.115s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.116s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.120s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.120s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.120s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.133s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/local_setup.ps1'
+[2.134s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/_local_setup_util_ps1.py'
+[2.135s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/setup.ps1'
+[2.136s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/local_setup.sh'
+[2.137s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/_local_setup_util_sh.py'
+[2.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/setup.sh'
+[2.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/local_setup.bash'
+[2.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/setup.bash'
+[2.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/local_setup.zsh'
+[2.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/setup.zsh'

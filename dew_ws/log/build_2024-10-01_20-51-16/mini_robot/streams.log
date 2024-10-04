@@ -1,0 +1,44 @@
+[0.785s] Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --build /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot -- -j16 -l16
+[0.822s] Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --build /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot -- -j16 -l16
+[0.848s] Invoking command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --install /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot
+[0.854s] -- Install configuration: ""
+[0.855s] -- Execute custom install script
+[0.856s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/ball_tracker_params_robot.yaml
+[0.856s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/ball_tracker_params_sim.yaml
+[0.856s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/drive_bot.rviz
+[0.856s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/empty.yaml
+[0.856s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/gazebo_params.yaml
+[0.857s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/joystick.yaml
+[0.857s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/main.rviz
+[0.857s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/twist_mux.yaml
+[0.857s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/config/view_bot.rviz
+[0.857s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/camera.xacro
+[0.857s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/gazebo_control.xacro
+[0.857s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/inertial_macros.xacro
+[0.857s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/robot.urdf.xacro
+[0.858s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/description/robot_core.xacro
+[0.858s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/ball_tracker.launch.py
+[0.858s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/joystick.launch.py
+[0.858s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/launch_robot.launch.py
+[0.858s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/launch_sim.launch.py
+[0.858s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/letsStart.launch.py
+[0.858s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/launch/rsp.launch.py
+[0.859s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/aruco.world
+[0.859s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/empty.world
+[0.859s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/worlds/obstacles.world
+[0.859s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/ament_index/resource_index/package_run_dependencies/mini_robot
+[0.859s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/ament_index/resource_index/parent_prefix_path/mini_robot
+[0.860s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/ament_prefix_path.sh
+[0.860s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/ament_prefix_path.dsv
+[0.860s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/path.sh
+[0.860s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/environment/path.dsv
+[0.860s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.bash
+[0.860s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.sh
+[0.860s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.zsh
+[0.861s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/local_setup.dsv
+[0.861s] -- Symlinking: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.dsv
+[0.868s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/ament_index/resource_index/packages/mini_robot
+[0.868s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/cmake/mini_robotConfig.cmake
+[0.869s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/cmake/mini_robotConfig-version.cmake
+[0.869s] -- Up-to-date symlink: /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_robot/share/mini_robot/package.xml
+[0.870s] Invoked command in '/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/mini_control:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/ball_tracker:/home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/install/aruco_tracker:/opt/ros/humble /usr/bin/cmake --install /home/neslisah/Documents/2023-2024Spring/ME462/MiniROS/dew_ws/build/mini_robot

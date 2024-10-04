@@ -3,9 +3,11 @@ setup.cfg
 setup.py
 launch/battery.launch.py
 launch/emergency_launch.py
+launch/keyboard_launch.py
 mini_control/__init__.py
 mini_control/battery.py
 mini_control/bumper.py
+mini_control/distance_node.py
 mini_control/emergency_button.py
 mini_control/neopixel.py
 mini_control/pipe_read.py

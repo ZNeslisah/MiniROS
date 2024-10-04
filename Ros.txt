@@ -44,4 +44,23 @@ ros2 launch mini_control emergency_launch.py
 Ball tracker simulation:
 ros2 launch mini_robot ball_tracker.launch.py sim_mode:=true 
 
+Aruco tracker:
+ros2 launch aruco_tracker aruco_tracker.launch.py
+ve twist_mux'i acan bir tane launch i cagirman lazim
+
+Vnc Server:
+!!!Goruntulemek istedigimde desktop donuyor, olmuyor
+raspberry side:
+open the vnc server:
+vncserver :1 -geometry 1920x1080 -depth 24
+kill the vnc server when needed:
+vncserver -kill :1
+
+on local computer connect the vnc:
+vncviewer <Raspberry_Pi_IP>:<display>
+vncviewer 192.168.1.100:1
+
+
+
+
 
